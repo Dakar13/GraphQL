@@ -46,7 +46,7 @@
         empresa: String
         email: String
         edad: Int!
-        tipo: TipoCliente!
+        tipo: TipoCliente
         cursos: [CursoInput]
     }
 """ Mutations para crear nuevos clientes """
