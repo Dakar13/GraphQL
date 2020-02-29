@@ -5,9 +5,7 @@ export async function connect(){
         await mongoose.connect('mongodb://localhost/clientes', {
             useNewUrlParser: true
         })
-        // await mongoose.connect('mongodb+srv://calva:1302Sasha@dakar2018-9phsc.mongodb.net/test?retryWrites=true&w=majority', {
-        //     useNewUrlParser: true
-        // })
+       
         console.log('>>> DB is connected');
     }catch(e){
         console.log('Algo a salido mal en la conexion!!');
